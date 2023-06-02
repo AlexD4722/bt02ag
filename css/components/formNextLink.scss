@@ -1,0 +1,31 @@
+@import 'styleColor.scss';
+
+.form-next {
+    max-width: 370px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-next__btn-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #7B88A8;
+}
+.form-next__btn-link:hover{
+    background-color: $--color--blule;
+    color: #ffffff;
+    transition: 0.3s;
+}

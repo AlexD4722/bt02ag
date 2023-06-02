@@ -1,0 +1,40 @@
+@import 'styleColor.scss';
+.more-link {
+    padding-top: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #7B88A8;
+}
+
+.more-link__text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    width: fit-content;
+    padding-right: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.more-link__detail {
+    color: #7B88A8;
+    display: flex;
+    position: relative;
+}
+.more-link__detail:hover {
+    color: $--color--orange;
+    transition: 0.3s;
+}
+

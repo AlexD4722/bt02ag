@@ -1,0 +1,160 @@
+@import 'styleColor.scss';
+
+
+.grid-sidebar {
+    padding-bottom: 30px;
+}
+
+.section-sidebar {
+    border-radius: 5px;
+}
+
+.section-sidebar__form {
+    padding: 20px 30px 30px 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.section-sidebar__label {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.4px;
+
+    /* Text/Heading */
+
+    color: #2D3958;
+
+}
+
+.section-sidebar__input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #A3ACC3;
+}
+
+.section-sidebar__icon-search {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-sidebar__input-text {
+    width: 100%;
+    border: 1px solid #E7E5EA;
+    border-radius: 5px;
+    height: 48px;
+    padding: 11px 18px 11px 18px;
+}
+
+.girt-news {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.girt-news__img {
+    width: 50px;
+    height: 50%;
+}
+
+.grit-news__img>img {
+    width: 100%;
+}
+
+.girt-news__content {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: -0.3px;
+
+    /* Text/Text */
+    color: #7B88A8;
+}
+
+.section-sidebar__btn-option {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+
+}
+
+.section-sidebar__list-option {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.section-sidebar__title-subscribe {
+    padding-top: 128px;
+    padding-bottom: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    /* Text/Text White */
+
+    color: #FFFFFF;
+
+}
+
+.section-sidebar__btn-subscribe {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 127px;
+}
+
+.btn-subscribe {
+    background-color: $--color--purple;
+    width: 148px;
+}
+
+.background-form {
+    background-image: url('../../img/BG.png');
+    background-size: cover;
+    position: relative;
+}
+
+.layout-coating {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #321370;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        padding: 0 15px;
+    }
+    
+}

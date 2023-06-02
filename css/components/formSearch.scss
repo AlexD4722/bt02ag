@@ -1,0 +1,34 @@
+@import 'styleColor.scss';
+@import 'button.scss';
+
+.form-search {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.form-search__input-detail {
+    border: none;
+    padding: 14px 0 14px 20px;
+    width: 100%;
+}
+
+.form-search__input {
+    background: #FFFFFF;
+    border: 1px solid #E7E5EA;
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+    width: 370px;
+    height: 48px;
+}
+.section-social{
+    margin-top: 100px;
+    padding-top: 40px;
+    border-top: 1px solid #434A5C;
+    
+}

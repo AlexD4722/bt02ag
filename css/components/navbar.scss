@@ -1,0 +1,67 @@
+@import './styleColor.scss';
+@import './button.scss';
+.nav-bar {
+    padding: 20px 10px 0 10px;
+    margin: 0 auto;
+}
+
+
+
+.style-decoration {
+    text-decoration: none;
+}
+
+.list-menu__item-menu {
+    list-style: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #7B88A8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.list-menu__item-menu > a:hover {
+    color: #2D3958;
+    transition: 0.3s;
+}
+
+.font-color-grey {
+    color: #7B88A8;
+}
+
+.flex-gap--10 {
+    gap: 10%;
+
+}
+
+.menu-shop {
+    width: 100%;
+    align-items: center;
+}
+
+.list-menu__item-menu {
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.btn-tool{
+    padding:0 20px;
+    text-align: center;
+}
+.btn-tool__btn-icon{
+    padding: 0 10px;
+    height: fit-content;
+}
+.btn-link{
+    width: 129px;
+    height: 48px;
+}
+
+.menu-shop__btn{
+    align-items: center;
+}

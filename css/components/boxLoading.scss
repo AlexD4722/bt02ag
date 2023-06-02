@@ -1,0 +1,23 @@
+@import 'styleColor.scss';
+.box-loading{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.box-loading__line{
+    width: 40px;
+    height: 5px;
+    position: relative;
+    background-color: $--color--textSmoke;
+    border-radius: 20px;
+}
+.box-loading__line--harf-blue::after{
+    border-radius: 20px;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 5px;
+    background-color: $--color--blule;
+    left: 0;
+}

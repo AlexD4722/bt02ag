@@ -1,0 +1,163 @@
+@import 'styleColor.scss';
+@import 'formBtnLink.scss';
+@import 'button.scss';
+
+.page-section {
+    width: 100%;
+    padding: 100px 0px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page-section__content {
+    width: 100%;
+
+}
+
+.page-section__title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: $--color--textMain;
+    margin: 0 auto;
+
+}
+
+.page-section__title--md {
+    font-size: 48px;
+}
+
+.page-section__sub-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #7B88A8;
+    max-width: 652px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.page-section__form-search {
+    max-width: 504px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.page-section__btn-link--services {
+    width: 166px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.pad-50 {
+    padding: 50px 0;
+}
+
+.page-section__review {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.page-section__titl--cta {
+    max-width: 970px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+}
+
+.page-section__sub-title--cta {
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 30px 120px 90px 120px;
+}
+
+.page-section__title--service {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+    text-align: center;
+    letter-spacing: -2px;
+
+    /* Text/Heading */
+
+    color: #2D3958;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.page-section__title--logos {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    /* Text color/black */
+
+    color: #000000;
+}
+
+.page-section__logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 3rem;
+    padding: 50px 0;
+}
+
+.cart--items-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-sectoin__box-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    padding: 100px 50px;
+    column-gap: 1rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.page-section__title--md {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+    text-align: center;
+    letter-spacing: -2px;
+
+    /* Text/Heading */
+
+    color: #2D3958;
+
+}

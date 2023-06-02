@@ -1,0 +1,102 @@
+footer {
+    padding-top: 100px;
+    padding-bottom:30px ;
+}
+
+.text-title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+
+    letter-spacing: -1px;
+
+    /* Text/Text White */
+
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.part-company__content-item {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+
+    /* Text/Text Gray */
+
+    color: #E7E5EA;
+}
+
+.part-newsletter__content-md {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    padding: 20px 0 25px 0;
+    /* Text/Text Gray */
+
+    color: #E7E5EA;
+}
+
+.part-newsletter__content-sm {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: -0.3px;
+
+    /* Text/Text Gray */
+
+    color: #E7E5EA;
+    padding-top: 15px;
+}
+
+.section-socia__text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    /* Text/Text Gray */
+
+    color: #E7E5EA;
+}
+.section-socia__contact{
+    gap: 20px;
+}
+.section-socia__contact-item{
+}
+.icon-footer{
+    font-size: 52px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    color: $--color--blule;
+}
+.section-socia__contact-item{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $--color--blule;
+    overflow: hidden;
+}

@@ -1,0 +1,162 @@
+.section-sidebar__form--shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-sidebar__icon-chevron {
+    width: 16px;
+    height: 16px;
+    color: #888682;
+}
+
+.form-check {
+    gap: 10px;
+}
+
+.line-gray-bottom {
+    border-bottom: 1px solid #E7E5EA;
+}
+
+.section-sidebar__name-item {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: -0.3px;
+
+    /* Text/Heading */
+
+    color: #333333;
+}
+
+.section-sidebar__name-item--extend {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: -0.3px;
+
+    /* Text/Text */
+
+    color: #7B88A8;
+}
+
+.section-sidebar__item-menu {
+    padding-bottom: 15px;
+}
+
+.section-sidebar__item-extend {
+    padding: 15px 0 15px 30px;
+}
+
+.section-sidebar__item-checkbox {
+    padding-bottom: 15px;
+}
+
+.list-produce {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.line-gray{
+    border-top: 1px solid #E7E5EA;
+    width: 100%;
+}
+.list-produce__header {
+    padding-bottom: 10px;
+
+}
+
+.list-produce__name-group {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.4px;
+
+    /* Text/Heading */
+
+    color: #2D3958;
+}
+
+.section-sidebar__input-text--shop {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    /* Text/Text */
+
+    color: #7B88A8;
+    width: 210px;
+}
+
+.list-produce__main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E7E5EA;
+    margin-bottom: 40px;
+}
+.list-produce__cart{
+    padding-bottom: 10px;
+}
+.cart__product-img-detail {
+    width: 100%;
+}
+
+.cart__product-title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    /* Text/Heading */
+
+    color: #2D3958;
+    padding: 15px 0;
+
+}
+
+.cart__product-subtitle {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    /* Text/Text */
+
+    color: #7B88A8;
+}
+.button--chat{
+    margin: 0 auto;
+    margin-top: 70px;
+}
+@media only screen and (max-width: 768px) {
+    .list-produce {
+        padding-left: 0;
+    }
+}
