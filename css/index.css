@@ -1485,10 +1485,12 @@ footer {
 
 .grid-decoration__img-cus {
   position: relative;
+  overflow: hidden;
 }
 
 .grid-decoration__img-detail {
   width: 100%;
+  margin-bottom: -5px;
 }
 
 .grid-decoration__img-cus--yellow {
